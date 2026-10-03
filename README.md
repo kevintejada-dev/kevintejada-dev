@@ -22,7 +22,8 @@ Empecé como operador y analista de datos, y de ahí pasé a automatizar lo que 
 ---
 
 ## 🔌 Mi stack, visto como un workflow
-
+<div align="center">
+  
 <table>
   <tr>
     <th align="center">📥 Entrada</th>
@@ -52,6 +53,8 @@ Empecé como operador y analista de datos, y de ahí pasé a automatizar lo que 
     </td>
   </tr>
 </table>
+
+</div>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,postgres,mysql,mongodb,nextjs,react,supabase,vercel,docker,git,github,postman,powerbi&perline=13" alt="Tecnologías" />

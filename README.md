@@ -89,7 +89,6 @@ Estoy abierto a oportunidades en **automatización, integraciones, IA y QA**.
 
 <p>
   <a href="https://www.linkedin.com/in/kevin-andres-tejada-arredondo"><img src="https://img.shields.io/badge/LinkedIn-ff6d5a?style=for-the-badge&logo=linkedin&logoColor=0b1220" alt="LinkedIn" /></a>
-  
   <a href="mailto:tejadaarredondo@gmail.com"><img src="https://img.shields.io/badge/Correo-2dd4bf?style=for-the-badge&logo=gmail&logoColor=0b1220" alt="Correo" /></a>
 </p>
 

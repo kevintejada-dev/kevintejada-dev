@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 316" width="800" height="316" role="img" aria-labelledby="t d">
+  <title id="t">Perfil de Kevin Tejada</title>
+  <desc id="d">Panel de parámetros con rol, empresa, ubicación, estudios, foco y estado.</desc>
+  <style>
+    .mono { font-family: "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace; }
+    .sans { font-family: Inter, "Segoe UI", system-ui, -apple-system, sans-serif; }
+    .pulse { animation: pulse 2.2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+  </style>
+
+  <rect x="1" y="1" width="798" height="314" rx="16" fill="#0f1a2c" stroke="#24344f" stroke-width="1.5"/>
+
+  <!-- cabecera -->
+  <path d="M1 17 a16 16 0 0 1 16 -16 H783 a16 16 0 0 1 16 16 V56 H1 Z" fill="#16233a"/>
+  <rect x="1" y="55" width="798" height="1.5" fill="#24344f"/>
+  <rect x="24" y="16" width="26" height="26" rx="7" fill="#ff6d5a"/>
+  <path d="M39 20 L31 31 H37 L35 38 L43 27 H37 Z" fill="#0f1a2c"/>
+  <text class="sans" x="62" y="34" font-size="16" font-weight="700" fill="#e8eef8">Perfil · Kevin Tejada Arredondo</text>
+  <rect x="632" y="17" width="144" height="24" rx="12" fill="#10332a"/>
+  <circle class="pulse" cx="650" cy="29" r="4.5" fill="#34d399"/>
+  <text class="mono" x="662" y="33" font-size="11" fill="#6ee7b7">Abierto a ofertas</text>
+
+  <!-- columna izquierda -->
+  <text class="mono" x="32" y="86" font-size="10" fill="#7f93b2" letter-spacing="1.2">ROL</text>
+  <rect x="32" y="94" width="352" height="38" rx="9" fill="#0b1424" stroke="#2b3d5c"/>
+  <text class="sans" x="46" y="118" font-size="14" fill="#e8eef8">AI Automation Engineer</text>
+
+  <text class="mono" x="32" y="160" font-size="10" fill="#7f93b2" letter-spacing="1.2">UBICACIÓN</text>
+  <rect x="32" y="168" width="352" height="38" rx="9" fill="#0b1424" stroke="#2b3d5c"/>
+  <text class="sans" x="46" y="192" font-size="14" fill="#e8eef8">Medellín, Colombia</text>
+
+  <text class="mono" x="32" y="234" font-size="10" fill="#7f93b2" letter-spacing="1.2">ESTUDIOS</text>
+  <rect x="32" y="242" width="352" height="38" rx="9" fill="#0b1424" stroke="#2b3d5c"/>
+  <text class="sans" x="46" y="266" font-size="14" fill="#e8eef8">Ing. de Sistemas · ITM · 5.º semestre</text>
+
+  <!-- columna derecha -->
+  <text class="mono" x="416" y="86" font-size="10" fill="#7f93b2" letter-spacing="1.2">EMPRESA</text>
+  <rect x="416" y="94" width="352" height="38" rx="9" fill="#0b1424" stroke="#2b3d5c"/>
+  <text class="sans" x="430" y="118" font-size="14" fill="#e8eef8">Lab Technologies S.A. · desde 2023</text>
+
+  <text class="mono" x="416" y="160" font-size="10" fill="#7f93b2" letter-spacing="1.2">FOCO</text>
+  <rect x="416" y="168" width="352" height="38" rx="9" fill="#0b1424" stroke="#2b3d5c"/>
+  <text class="sans" x="430" y="192" font-size="14" fill="#e8eef8">Automatización · APIs REST · Agentes LLM</text>
+
+  <text class="mono" x="416" y="234" font-size="10" fill="#7f93b2" letter-spacing="1.2">APRENDIENDO AHORA</text>
+  <rect x="416" y="242" width="352" height="38" rx="9" fill="#0b1424" stroke="#ff6d5a" stroke-opacity=".6"/>
+  <text class="sans" x="430" y="266" font-size="14" fill="#ffb3a8">Playwright · BDD · CI/CD</text>
+</svg>

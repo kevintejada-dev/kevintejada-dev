@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-labelledby="t d">
+  <title id="t">Kevin Tejada - AI Automation Engineer</title>
+  <desc id="d">Workflow animado: un problema entra, Kevin Tejada lo procesa y salen agentes con LLMs, APIs REST y reportes con IA.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111c2e"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#233350"/>
+    </pattern>
+    <linearGradient id="edge" gradientUnits="userSpaceOnUse" x1="196" y1="0" x2="700" y2="0">
+      <stop offset="0" stop-color="#ff6d5a"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <clipPath id="triggerClip">
+      <rect x="40" y="86" width="156" height="76" rx="14"/>
+    </clipPath>
+  </defs>
+  <style>
+    .mono { font-family: "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace; }
+    .sans { font-family: Inter, "Segoe UI", system-ui, -apple-system, sans-serif; }
+    .flow { fill: none; stroke: url(#edge); stroke-width: 2.4; stroke-linecap: round; stroke-dasharray: 7 9; animation: dash 1.4s linear infinite; }
+    .pulse { animation: pulse 2.2s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+    @keyframes dash { to { stroke-dashoffset: -16; } }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+  </style>
+
+  <rect width="900" height="260" rx="18" fill="url(#bg)"/>
+  <rect width="900" height="260" rx="18" fill="url(#dots)"/>
+  <rect x="1" y="1" width="898" height="258" rx="17" fill="none" stroke="#24344f" stroke-width="1.5"/>
+
+  <!-- conectores -->
+  <path class="flow" d="M196 124 H292"/>
+  <path class="flow" d="M608 124 C 650 124, 652 62, 700 62"/>
+  <path class="flow" d="M608 124 H700"/>
+  <path class="flow" d="M608 124 C 650 124, 652 186, 700 186"/>
+
+  <!-- nodo izquierdo: trigger -->
+  <g>
+    <rect x="40" y="86" width="156" height="76" rx="14" fill="#16233a" stroke="#34496b" stroke-width="1.5"/>
+    <rect x="40" y="86" width="6" height="76" fill="#ff6d5a" clip-path="url(#triggerClip)"/>
+    <text class="mono" x="62" y="108" font-size="10" fill="#7f93b2" letter-spacing="1.5">TRIGGER</text>
+    <text class="sans" x="62" y="132" font-size="16" font-weight="700" fill="#e8eef8">Un problema</text>
+    <text class="sans" x="62" y="150" font-size="11" fill="#9db0cc">manual y repetitivo</text>
+    <circle cx="196" cy="124" r="5" fill="#ff6d5a"/>
+  </g>
+
+  <!-- nodo central -->
+  <g>
+    <rect x="292" y="58" width="316" height="132" rx="18" fill="#182640" stroke="#ff6d5a" stroke-width="2"/>
+    <circle class="pulse" cx="580" cy="82" r="5" fill="#34d399"/>
+    <text class="mono" x="566" y="86" font-size="10" fill="#34d399" text-anchor="end">active</text>
+    <text class="mono" x="316" y="86" font-size="10" fill="#7f93b2" letter-spacing="1.5">PROCESO</text>
+    <text class="sans" x="316" y="124" font-size="32" font-weight="800" fill="#ffffff">Kevin Tejada</text>
+    <text class="sans" x="316" y="148" font-size="15" font-weight="600" fill="#ff8f80">AI Automation Engineer</text>
+    <text class="mono" x="316" y="172" font-size="11" fill="#9db0cc">n8n · Python · SQL · LLMs</text>
+    <circle cx="292" cy="124" r="5" fill="#ff6d5a"/>
+    <circle cx="608" cy="124" r="5" fill="#2dd4bf"/>
+  </g>
+
+  <!-- nodos de salida -->
+  <g>
+    <rect x="700" y="40" width="170" height="44" rx="12" fill="#10242f" stroke="#2dd4bf" stroke-width="1.5"/>
+    <text class="sans" x="720" y="67" font-size="14" font-weight="600" fill="#bff5ec">Agentes con LLMs</text>
+    <circle cx="700" cy="62" r="5" fill="#2dd4bf"/>
+
+    <rect x="700" y="102" width="170" height="44" rx="12" fill="#10242f" stroke="#2dd4bf" stroke-width="1.5"/>
+    <text class="sans" x="720" y="129" font-size="14" font-weight="600" fill="#bff5ec">Integraciones REST</text>
+    <circle cx="700" cy="124" r="5" fill="#2dd4bf"/>
+
+    <rect x="700" y="164" width="170" height="44" rx="12" fill="#10242f" stroke="#2dd4bf" stroke-width="1.5"/>
+    <text class="sans" x="720" y="191" font-size="14" font-weight="600" fill="#bff5ec">Reportes con IA</text>
+    <circle cx="700" cy="186" r="5" fill="#2dd4bf"/>
+  </g>
+
+  <text class="mono" x="40" y="236" font-size="11" fill="#6f84a6">Medellín, Colombia  ·  Lab Technologies S.A.  ·  automatizando lo repetitivo</text>
+</svg>
